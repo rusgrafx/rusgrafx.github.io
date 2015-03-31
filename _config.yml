@@ -1,0 +1,24 @@
+name: SlashAutomation
+author:
+  name: Ruslan Ulanov
+  googleplus: https://google.com/+RuslanUlanov
+  twitter: https://twitter.com/rusgrafx
+  stackoverflow: http://stackoverflow.com/users/1007955/ruslan-ulanov
+  flickr: http://www.flickr.com/photos/rusgrafx
+  github: https://github.com/rusgrafx
+
+baseurl: http://www.slashautomation.com
+description: '.'
+
+paginate: 5
+
+highlighter: pygments
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "tables"]
+
+relative_permalinks: false
+permalink: /:year/:month/:title.html
+
+exclude: ['README.md', 'LICENSE.txt']
+
